@@ -39,7 +39,7 @@ const App = () => {
       rotate: 0,
       scale: 1,
       duration: 2,
-      delay: -1,
+      delay: -2,
       ease: "power2.inOut",
     });
     gsap.to(".sky", {
@@ -109,7 +109,7 @@ const App = () => {
             </mask>
           </defs>
           <image
-            href="./bg.png"
+            href="./fullimg.png"
             width="100%"
             height="100%"
             preserveAspectRatio="xMidYMid slice"
